@@ -72,7 +72,7 @@ public class CharacterMovement : MonoBehaviour
         // jumping, space
         if ((grounded || !doubleJump) && Input.GetButtonDown("Jump"))
         {
-            rb.AddForce(new Vector2(0, jumpSpeed));
+            rb.AddRelativeForce(new Vector2(0, jumpSpeed));
 
             if (!doubleJump && !grounded)
             {

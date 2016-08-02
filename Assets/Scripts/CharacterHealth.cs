@@ -5,18 +5,19 @@ public class CharacterHealth : MonoBehaviour {
 
     public int health = 1000;
     private CharacterMovement characterMovement;
-    public float timer;
-    public float waitTime = 2.0f;
+    private LevelReload levelReload;
     public Renderer aura;
     public Color auraColor;
 
     void Awake()
     {
         characterMovement = GetComponent<CharacterMovement>(); // Der Variable wird das Script CharakterMovement zugewiesen
+        levelReload = GetComponent<LevelReload>();
         aura = transform.FindDeepChild("Body").GetComponent<Renderer>();
+
     }
 	
-	void FixedUpdate ()
+	void Update ()
     {
         if (health == 1000)
         {
@@ -85,21 +86,14 @@ public class CharacterHealth : MonoBehaviour {
         }
 
         // dead
-        if (health == 0)
+        if (health <= 0)
         {
             characterMovement.enabled = false;
-            LevelReset();
+            levelReload.LevelReset();
+
         }
 
     }
 
-    void LevelReset()
-    {
-        timer += Time.deltaTime;
 
-        if (timer >= waitTime)
-        {
-            //Application.LoadLevel(0);
-        }
-    }
 }
