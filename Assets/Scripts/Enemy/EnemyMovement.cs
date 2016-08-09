@@ -65,7 +65,7 @@ public class EnemyMovement : MonoBehaviour
 
         transform.position += transform.forward * MoveSpeed * Time.deltaTime;
 
-        Debug.Log("walking function");
+        //Debug.Log("walking function");
         if (animstatus == "Standing")
         {
             anim.Play("en_1_arm|En1_stand 0", -1, 1);
