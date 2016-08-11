@@ -20,9 +20,12 @@ public class EnemyMovement : MonoBehaviour
     
     private Vector3 targetposition;
 
+    public Collider weapon;    // der collider der waffe
+
     void Awake()
     {
         GetCharacter = GameObject.FindGameObjectWithTag("Character").transform;
+        weapon = transform.FindDeepChild("DamageCollider").GetComponent<Collider>(); // zuweisung des colliders
     }
 
     //-------------------------------------------------------------------------------------------------------------------------------
@@ -68,15 +71,15 @@ public class EnemyMovement : MonoBehaviour
         //Debug.Log("walking function");
         if (animstatus == "Standing")
         {
+            weapon.enabled = false;
             anim.Play("en_1_arm|En1_stand 0", -1, 1);
-
             animstatus = "Walking";
         }
 
         if (animstatus == "Attacking")
         {
+            weapon.enabled = false;
             anim.Play("en_1_arm|En1_atk_1 0 0", -1, 2f);
-
             animstatus = "Walking";
         }
     }  
@@ -85,6 +88,7 @@ public class EnemyMovement : MonoBehaviour
 
         if (animstatus == "Walking")
         {
+            weapon.enabled = true;
             anim.Play("en_1_arm|En1_walk_1 0 0", -1, 1);
             animstatus = "Attacking";
         }
@@ -147,4 +151,25 @@ public class EnemyMovement : MonoBehaviour
             Invoke("attacking", 0.25f);
         }
     }
+}
+
+
+public class EnemyHealth : EnemyMovement
+{
+    public int enemyHealth = 100;
+
+    void Start()
+    {
+
+    }
+
+
+    void Update()
+    {
+        if (enemyHealth <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
 }

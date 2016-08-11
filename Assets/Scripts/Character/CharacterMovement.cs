@@ -32,16 +32,11 @@ public class CharacterMovement : MonoBehaviour
 
     }
 
-
-
     void FixedUpdate ()
     {
         
         // Den Radius des groundCheck definieren
         grounded = Physics.CheckSphere(groundCheck.position, groundRadius, whatIsGround);
-
-        //
-        
 
         // flipping/facing
         if (moveDirection > 0.0f && !facingRight)
@@ -68,10 +63,8 @@ public class CharacterMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(moveDirection * speedInAir, rb.velocity.y);
         }
-        whatIsSpeed = rb.velocity.magnitude; //anzeigen der geschwindigkeit des character(rigidbody)
-
-
-
+        whatIsSpeed = rb.velocity.magnitude; //anzeigen der geschwindigkeit des character(rigidbody) als public
+        
     }
 	
 	
@@ -99,7 +92,6 @@ public class CharacterMovement : MonoBehaviour
     void Flip()
     {
         facingRight = !facingRight;         // Setzt facingRight auf true oder false, je nachdem welche Bewegungstaste gedrückt wurde (a=false, d=true) (siehe moveDirection) Charakter muss mit dem Gesicht nach Rechts starten!
-
         transform.Rotate(Vector3.up, 180.0f, Space.World);
     }
 
