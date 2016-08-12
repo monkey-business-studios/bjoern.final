@@ -3,17 +3,28 @@ using System.Collections;
 
 public class CharacterHealth : MonoBehaviour {
 
+    //movement
     public float charHealth = 1000.0f;
-    private CharacterMovement characterMovement;
+    private CharacterMovement _characterMovement;
+
+    //damage taken from enemy
+    public EnemyMachete _enemyMachete;
+
+    //reload lvl
     private LevelReload levelReload;
+
+    //aura
     public Renderer aura;
     public Color auraColor;
     private float colorValue;
 
     void Awake()
     {
-        characterMovement = GetComponent<CharacterMovement>(); // Der Variable wird das Script CharakterMovement zugewiesen
+        _characterMovement = GetComponent<CharacterMovement>();
+        _enemyMachete = GameObject.FindGameObjectWithTag("EnemyMachete").GetComponent<EnemyMachete>();
+
         levelReload = GetComponent<LevelReload>();
+
         aura = transform.FindDeepChild("Bear_MOD").GetComponent<Renderer>();
 
     }
@@ -24,15 +35,15 @@ public class CharacterHealth : MonoBehaviour {
         if (charHealth <= 0)
         {
             //dead
-            auraColor = new Color(.4f, .4f, .4f, 1.0f);
+            auraColor = new Color(.2f, .2f, .2f, 1.0f);
             aura.material.SetColor("_Color", auraColor);
-            characterMovement.enabled = false;
+            _characterMovement.enabled = false;
             levelReload.LevelReset();
         }
         else
         {
             //alive
-            colorValue = (charHealth / 2000.0f) + 0.5f; // berechnung des farbwertes für die textur
+            colorValue = (charHealth / 2000.0f) + 0.4f; // berechnung des farbwertes für die textur
             auraColor = new Color(colorValue, colorValue, colorValue, 1.0f);
             aura.material.SetColor("_Color", auraColor);
         }
@@ -46,5 +57,12 @@ public class CharacterHealth : MonoBehaviour {
 
     }
 
-
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Machete"))
+        {
+            charHealth -= _enemyMachete.macheteDamage;
+            Debug.Log(charHealth);
+        }
+    }
 }
