@@ -9,7 +9,7 @@ public class CharacterCombat : MonoBehaviour
     // light attack
     private Collider lightAttackTrigger;
     public float lightAttackTimer = 0.0f;
-    public float lightAttackCooldown = 0.3f;
+    public float lightAttackCooldown = 3.0f;
     public float lightAttackDamage = 25.0f;
     
     // heavy attack
@@ -20,14 +20,14 @@ public class CharacterCombat : MonoBehaviour
 
     // grab
     public float grabTimer = 0.0f;
-    public float grabCooldown = 1.0f;
+    public float grabCooldown = 5.0f;
     public bool stoneGrabbed = false;
     public float stoneDamage;
     private Transform grabDetecter;
     //private Transform closeByEnemy;
     float dist;
-    public float throwSpeed = 2000.0f;
-    public float throwSpeed2 = 1000.0f;
+    public float throwSpeedUp = 2000.0f;
+    public float throwSpeedRight = 1000.0f;
     private Transform stoneSpawn;
     public Rigidbody stonePrefab;
     Rigidbody cloneStone;
@@ -42,41 +42,79 @@ public class CharacterCombat : MonoBehaviour
 
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.JoystickButton2)) && !isAttacking) //light
+        if (!isAttacking)
         {
-            lightAttack();
+            //light
+            if ((Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.JoystickButton2)) && lightAttackTimer == 0)
+            {
+                lightAttack();
+            }
+            else if (lightAttackTimer <= lightAttackCooldown)
+            {
+                lightAttackTimer += Time.deltaTime;
+            }
+            else if (lightAttackTimer >= lightAttackCooldown)
+            {
+                lightAttackTimer = 0;
+            }
+            else
+            {
+                isAttacking = false;
+                lightAttackTrigger.enabled = false;
+                heavyAttackTrigger.enabled = false;
+            }
+
+            //heavy
+            if ((Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.JoystickButton3)) && heavyAttackTimer == 0)
+            {
+                heavyAttack();
+            }
+            else if (heavyAttackTimer < heavyAttackCooldown)
+            {
+                heavyAttackTimer += Time.deltaTime;
+            }
+            else if (heavyAttackTimer >= heavyAttackCooldown)
+            {
+                lightAttackTimer = 0;
+            }
+            else
+            {
+                isAttacking = false;
+                lightAttackTrigger.enabled = false;
+                heavyAttackTrigger.enabled = false;
+            }
+
+
+            if ((Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.JoystickButton1)) && !isAttacking) //grab
+            {
+                grabStone();
+            }
+            else
+            {
+                isAttacking = false;
+                lightAttackTrigger.enabled = false;
+                heavyAttackTrigger.enabled = false;
+            }
+
         }
-        else if ((Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.JoystickButton3)) && !isAttacking) //heavy
-        {
-            heavyAttack();
-        }
-        else if ((Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.JoystickButton1)) && !isAttacking) //grab
-        {
-            grabStone();
-        }
-        else
-        {
-            isAttacking = false;
-            lightAttackTrigger.enabled = false;
-            heavyAttackTrigger.enabled = false;
-        }
- 
+
     }
 
 
     void lightAttack()
     {
-        if(stoneGrabbed == false)
+        if (stoneGrabbed == false)
         {
+            lightAttackTimer += Time.deltaTime;
             lightAttackTimer = lightAttackCooldown;
             lightAttackTrigger.enabled = true;
+
             Debug.Log("light attack");
         }
         else
         {
             throwStone();
         }
-
     }
 
     void heavyAttack()
@@ -89,6 +127,7 @@ public class CharacterCombat : MonoBehaviour
 
     void grabStone()
     {
+        heavyAttackTimer = heavyAttackCooldown;
         isAttacking = true;
         stoneGrabbed = true;
 
@@ -101,8 +140,7 @@ public class CharacterCombat : MonoBehaviour
     {
 
         cloneStone = Instantiate(stonePrefab, stoneSpawn.position, stoneSpawn.rotation) as Rigidbody;
-        cloneStone.AddForce(stoneSpawn.transform.up * throwSpeed);
-        cloneStone.AddForce(stoneSpawn.transform.right * throwSpeed2);
+        cloneStone.AddForce((stoneSpawn.transform.up * throwSpeedUp) + (stoneSpawn.transform.right * throwSpeedRight));
         stoneGrabbed = false;
     }
 

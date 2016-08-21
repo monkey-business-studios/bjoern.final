@@ -86,7 +86,7 @@ public class CharacterMovement : MonoBehaviour
         inputBear_Bite = false;
         anim.SetBool("InputBear_Attack", inputBear_Attack);
         anim.SetBool("InputBear_Bite", inputBear_Bite);
-        Debug.Log("werte zurückgesetzt!");
+        //Debug.Log("werte zurückgesetzt!");
     }
 
     void Update()
@@ -120,7 +120,7 @@ public class CharacterMovement : MonoBehaviour
                     anim.SetBool("InputBear_Bite", inputBear_Bite);
 
                 }
-                Debug.Log(n);
+                //Debug.Log(n);
                 inputBear_Attack = standangriff;
                 inputBear_Bite = standangriff;
             }
