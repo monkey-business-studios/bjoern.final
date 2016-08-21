@@ -10,7 +10,6 @@ public class CharacterMovement : MonoBehaviour
 
     //animation
     private Animator anim;                          // reference to the animator on the character
-    int jumpHash = Animator.StringToHash("Jump");
 
     // walking
     public float maxSpeed = 10.0f;
@@ -146,7 +145,6 @@ public class CharacterMovement : MonoBehaviour
         // jumping, space
         if ((grounded /*|| !doubleJump*/) && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.JoystickButton0)))
         {
-            anim.SetTrigger(jumpHash);
             rb.AddRelativeForce(new Vector2(0, jumpSpeed));
 
             /*
