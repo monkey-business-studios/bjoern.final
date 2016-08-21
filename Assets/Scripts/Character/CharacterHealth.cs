@@ -21,11 +21,10 @@ public class CharacterHealth : MonoBehaviour {
     void Awake()
     {
         _characterMovement = GetComponent<CharacterMovement>();
-        _enemyMachete = GameObject.FindGameObjectWithTag("EnemyMachete").GetComponent<EnemyMachete>();
 
         levelReload = GetComponent<LevelReload>();
 
-        aura = transform.FindDeepChild("Bear_MOD").GetComponent<Renderer>();
+        aura = transform.FindDeepChild("Bear_TOP").GetComponent<Renderer>();
 
     }
 	
@@ -35,7 +34,7 @@ public class CharacterHealth : MonoBehaviour {
         if (charHealth <= 0)
         {
             //dead
-            auraColor = new Color(.2f, .2f, .2f, 1.0f);
+            auraColor = new Color(.4f, .4f, .4f, 1.0f);
             aura.material.SetColor("_Color", auraColor);
             _characterMovement.enabled = false;
             levelReload.LevelReset();
@@ -43,7 +42,7 @@ public class CharacterHealth : MonoBehaviour {
         else
         {
             //alive
-            colorValue = (charHealth / 2000.0f) + 0.4f; // berechnung des farbwertes für die textur
+            colorValue = (charHealth / 2000.0f) + 0.5f; // berechnung des farbwertes für die textur
             auraColor = new Color(colorValue, colorValue, colorValue, 1.0f);
             aura.material.SetColor("_Color", auraColor);
         }

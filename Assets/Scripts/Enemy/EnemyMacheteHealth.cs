@@ -4,13 +4,12 @@ using System.Collections;
 public class EnemyMacheteHealth : MonoBehaviour
 {
     public float enemyHealth = 100.0f;
-    private float lightDamage;
-    private float heavyDamage;
+    public CharacterCombat _CharacterCombat;
+    private Rigidbody rb;
 
     void Awake()
     {
-        lightDamage = GameObject.FindGameObjectWithTag("Character").GetComponent<CharacterCombat>().lightAttackDamage;
-        heavyDamage = GameObject.FindGameObjectWithTag("Character").GetComponent<CharacterCombat>().heavyAttackDamage;
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -25,14 +24,21 @@ public class EnemyMacheteHealth : MonoBehaviour
     {
         if (other.CompareTag("LightAttackTrigger"))
         {
-            enemyHealth -= lightDamage;
+            enemyHealth -= _CharacterCombat.lightAttackDamage;
             Debug.Log(enemyHealth);
         }
 
         if (other.CompareTag("HeavyAttackTrigger"))
         {
-            enemyHealth -= heavyDamage;
+            enemyHealth -= _CharacterCombat.heavyAttackDamage;
             Debug.Log(enemyHealth);
+        }
+
+        if (other.CompareTag("StoneProjectileTrigger"))
+        {
+            enemyHealth -= _CharacterCombat.stoneDamage;
+            rb.AddExplosionForce(10f, transform.position, 5f);
+            Debug.Log("HIT");
         }
 
     }
