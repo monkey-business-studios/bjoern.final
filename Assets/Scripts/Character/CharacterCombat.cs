@@ -2,7 +2,10 @@
 using System.Collections;
 
 public class CharacterCombat : MonoBehaviour
-{    
+{
+    // global variables
+    public Transform footSpawn;
+
     // global cooldown
     public bool globalCooldown;
     public float globalCooldownSet = 0f;
@@ -22,6 +25,8 @@ public class CharacterCombat : MonoBehaviour
     public float heavyAttackTimer = 0.0f;
     public float heavyAttackCooldownTime = 1.0f;
     public float heavyAttackDamage = 75.0f;
+    public GameObject HeavyParticlePrefab;
+    GameObject heavyParticle;
 
     // grab
     public bool grabCooldown;
@@ -44,6 +49,7 @@ public class CharacterCombat : MonoBehaviour
         heavyAttackTrigger = transform.FindDeepChild("HeavyAttackTrigger").GetComponent<Collider>();
         //closeByEnemy = GetClosestEnemy(GameObject.Find("AllEnemies").transform, transform.position);
         stoneSpawn = GameObject.Find("StoneSpawn").transform;
+        footSpawn = GameObject.Find("Foot").transform;
 
         lightAttackCooldown = false;
         heavyAttackCooldown = false;
@@ -85,6 +91,7 @@ public class CharacterCombat : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.JoystickButton3))
                 {
+                    Instantiate(HeavyParticlePrefab, footSpawn.position, footSpawn.rotation);
                     heavyAttackTrigger.enabled = true;
                     globalCooldown = true;
                     heavyAttackCooldown = true;
