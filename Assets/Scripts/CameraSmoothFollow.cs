@@ -16,12 +16,6 @@ public class CameraSmoothFollow : MonoBehaviour
     public Transform cameraTarget;
 
 
-	
-	void Awake ()
-    {
-        cameraTarget = GameObject.FindGameObjectWithTag("CameraTarget").transform;
-	}
-	
     bool CheckXMargin()
     {
         return Mathf.Abs(transform.position.x - cameraTarget.position.x) > xMargin;
