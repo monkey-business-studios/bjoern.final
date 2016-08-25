@@ -1,0 +1,942 @@
+fileFormatVersion: 2
+guid: 3dc4a37026558d74688c34fe937f58ee
+timeCreated: 1470133153
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Bone.001
+    100004: Bone.002
+    100006: Bone.003
+    100008: Bone.003_L
+    100010: Bone.003_L.001
+    100012: Bone.003_L.002
+    100014: Bone.003_L.003
+    100016: Bone.003_L.004
+    100018: Bone.003_L.005
+    100020: Bone.003_L.005_end
+    100022: Bone.003_L.006
+    100024: Bone.003_L.007
+    100026: Bone.003_L.008
+    100028: Bone.003_L.008_end
+    100030: Bone.003_L.009
+    100032: Bone.003_L.010
+    100034: Bone.003_L.011
+    100036: Bone.003_L.011_end
+    100038: Bone.003_L.012
+    100040: Bone.003_L.013
+    100042: Bone.003_L.014
+    100044: Bone.003_L.014_end
+    100046: Bone.003_L.015
+    100048: Bone.003_L.016
+    100050: Bone.003_L.017
+    100052: Bone.003_L.017_end
+    100054: Bone.003_L.018
+    100056: Bone.003_L.018_end
+    100058: Bone.003_R
+    100060: Bone.003_R.001
+    100062: Bone.003_R.002
+    100064: Bone.003_R.003
+    100066: Bone.003_R.004
+    100068: Bone.003_R.005
+    100070: Bone.003_R.005_end
+    100072: Bone.003_R.006
+    100074: Bone.003_R.007
+    100076: Bone.003_R.008
+    100078: Bone.003_R.008_end
+    100080: Bone.003_R.009
+    100082: Bone.003_R.010
+    100084: Bone.003_R.011
+    100086: Bone.003_R.011_end
+    100088: Bone.003_R.012
+    100090: Bone.003_R.013
+    100092: Bone.003_R.014
+    100094: Bone.003_R.014_end
+    100096: Bone.003_R.015
+    100098: Bone.003_R.016
+    100100: Bone.003_R.017
+    100102: Bone.003_R.017_end
+    100104: Bone.003_R.018
+    100106: Bone.003_R.018_end
+    100108: Bone.004
+    100110: Bone.004_L
+    100112: Bone.004_L.001
+    100114: Bone.004_L.002
+    100116: Bone.004_L.003
+    100118: Bone.004_L.004
+    100120: Bone.004_L.004_end
+    100122: Bone.004_R
+    100124: Bone.004_R.001
+    100126: Bone.004_R.002
+    100128: Bone.004_R.003
+    100130: Bone.004_R.004
+    100132: Bone.004_R.004_end
+    100134: Bone.005
+    100136: Bone.006
+    100138: Bone.006_end
+    100140: //RootNode
+    100142: en_1_arm
+    100144: enemy_1.001
+    400000: Bone
+    400002: Bone.001
+    400004: Bone.002
+    400006: Bone.003
+    400008: Bone.003_L
+    400010: Bone.003_L.001
+    400012: Bone.003_L.002
+    400014: Bone.003_L.003
+    400016: Bone.003_L.004
+    400018: Bone.003_L.005
+    400020: Bone.003_L.005_end
+    400022: Bone.003_L.006
+    400024: Bone.003_L.007
+    400026: Bone.003_L.008
+    400028: Bone.003_L.008_end
+    400030: Bone.003_L.009
+    400032: Bone.003_L.010
+    400034: Bone.003_L.011
+    400036: Bone.003_L.011_end
+    400038: Bone.003_L.012
+    400040: Bone.003_L.013
+    400042: Bone.003_L.014
+    400044: Bone.003_L.014_end
+    400046: Bone.003_L.015
+    400048: Bone.003_L.016
+    400050: Bone.003_L.017
+    400052: Bone.003_L.017_end
+    400054: Bone.003_L.018
+    400056: Bone.003_L.018_end
+    400058: Bone.003_R
+    400060: Bone.003_R.001
+    400062: Bone.003_R.002
+    400064: Bone.003_R.003
+    400066: Bone.003_R.004
+    400068: Bone.003_R.005
+    400070: Bone.003_R.005_end
+    400072: Bone.003_R.006
+    400074: Bone.003_R.007
+    400076: Bone.003_R.008
+    400078: Bone.003_R.008_end
+    400080: Bone.003_R.009
+    400082: Bone.003_R.010
+    400084: Bone.003_R.011
+    400086: Bone.003_R.011_end
+    400088: Bone.003_R.012
+    400090: Bone.003_R.013
+    400092: Bone.003_R.014
+    400094: Bone.003_R.014_end
+    400096: Bone.003_R.015
+    400098: Bone.003_R.016
+    400100: Bone.003_R.017
+    400102: Bone.003_R.017_end
+    400104: Bone.003_R.018
+    400106: Bone.003_R.018_end
+    400108: Bone.004
+    400110: Bone.004_L
+    400112: Bone.004_L.001
+    400114: Bone.004_L.002
+    400116: Bone.004_L.003
+    400118: Bone.004_L.004
+    400120: Bone.004_L.004_end
+    400122: Bone.004_R
+    400124: Bone.004_R.001
+    400126: Bone.004_R.002
+    400128: Bone.004_R.003
+    400130: Bone.004_R.004
+    400132: Bone.004_R.004_end
+    400134: Bone.005
+    400136: Bone.006
+    400138: Bone.006_end
+    400140: //RootNode
+    400142: en_1_arm
+    400144: enemy_1.001
+    4300000: enemy_1.001
+    7400000: en_1_arm|En1_atk_1
+    7400002: en_1_arm|En1_dmg_1
+    7400004: en_1_arm|En1_stand
+    7400006: en_1_arm|En1_walk_1
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: enemy_1.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nInbetween bone default rotation found in this file
+      is different from the one found in the source avatar:\n\t'Bone.004_L.001' :
+      rotation error = 44.410492 deg\n\t'Bone.004_R.001' : rotation error = 32.877319
+      deg\n\nClip 'en_1_arm|En1_atk_1' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Bone.003_L.001' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Bone.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bone.004_L.001' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Bone.004_R.001'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'en_1_arm|En1_dmg_1' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bone.003_L.001'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone.004_L.001'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone.004_R.001'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'en_1_arm|En1_walk_1' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Bone.003_L.001'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone.004_L.001'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bone.004_R.001'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: en_1_arm|En1_atk_1
+      takeName: en_1_arm|En1_atk_1
+      firstFrame: 0
+      lastFrame: 58
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: en_1_arm
+        weight: 1
+      - path: en_1_arm/Bone
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: enemy_1.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: en_1_arm|En1_dmg_1
+      takeName: en_1_arm|En1_dmg_1
+      firstFrame: 0
+      lastFrame: 43
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: en_1_arm
+        weight: 1
+      - path: en_1_arm/Bone
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: enemy_1.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: en_1_arm|En1_stand
+      takeName: en_1_arm|En1_stand
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: en_1_arm
+        weight: 1
+      - path: en_1_arm/Bone
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: enemy_1.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: en_1_arm|En1_walk_1
+      takeName: en_1_arm|En1_walk_1
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: en_1_arm
+        weight: 1
+      - path: en_1_arm/Bone
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: en_1_arm/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: enemy_1.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

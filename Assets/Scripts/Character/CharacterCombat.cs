@@ -7,30 +7,29 @@ public class CharacterCombat : MonoBehaviour
     public Transform footSpawn;
 
     // global cooldown
-    public bool globalCooldown;
+    public bool startGlobalCooldown = false;
     public float globalCooldownSet = 0f;
     public float globalColldownTimer = 0.2f;
     
 
     // light attack
     private Collider lightAttackTrigger;
-    public bool lightAttackCooldown;
-    public float lightAttackTimer = 0.0f;
+    public bool startLightAttackCooldown = false;
+    public float lightAttackCooldownSet = 0.0f;
     public float lightAttackCooldownTime = 3.0f;
     public float lightAttackDamage = 25.0f;
     
     // heavy attack
     private Collider heavyAttackTrigger;
-    public bool heavyAttackCooldown;
-    public float heavyAttackTimer = 0.0f;
+    public bool startHeavyAttackCooldown = false;
+    public float heavyAttackCooldownSet = 0.0f;
     public float heavyAttackCooldownTime = 1.0f;
     public float heavyAttackDamage = 75.0f;
     public GameObject HeavyParticlePrefab;
-    GameObject heavyParticle;
 
     // grab
-    public bool grabCooldown;
-    public float grabTimer = 0.0f;
+    public bool startGrabCooldown = false;
+    public float grabCooldownSet = 0.0f;
     public float grabCooldownTime = 5.0f;
     public bool stoneGrabbed = false;
     public float stoneDamage;
@@ -51,27 +50,47 @@ public class CharacterCombat : MonoBehaviour
         stoneSpawn = GameObject.Find("StoneSpawn").transform;
         footSpawn = GameObject.Find("Foot").transform;
 
-        lightAttackCooldown = false;
-        heavyAttackCooldown = false;
-        grabCooldown = false;
-        globalCooldown = false;
     }
 
 
     void FixedUpdate()
     {
-        if (globalCooldown == false)
+        if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.JoystickButton2))
+        {
+            startLightAttack();
+        }
+        else
+        {
+            endLightAttack();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.JoystickButton3))
+        {
+            startHeavyAttack();
+        }
+        else
+        {
+            endHeavyAttack();
+        }
+
+        if(Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.JoystickButton1))
+        {
+            grabStone();
+        }
+
+/*----------------------------------------backup-----------------------------------------------------------
+        if (startGlobalCooldown == false)
         {
             //light
-            if (lightAttackCooldown == false)
+            if (startLightAttackCooldown == false)
             {
                 if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.JoystickButton2))
                 {
                     if (stoneGrabbed == false)
                     {
                         lightAttackTrigger.enabled = true;
-                        globalCooldown = true;
-                        lightAttackCooldown = true;
+                        startGlobalCooldown = true;
+                        startLightAttackCooldown = true;
                         Debug.Log("light attack");
                     }
                     else
@@ -87,14 +106,14 @@ public class CharacterCombat : MonoBehaviour
             }
 
             // heavy
-            if (heavyAttackCooldown == false)
+            if (startHeavyAttackCooldown == false)
             {
                 if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.JoystickButton3))
                 {
                     Instantiate(HeavyParticlePrefab, footSpawn.position, footSpawn.rotation);
                     heavyAttackTrigger.enabled = true;
-                    globalCooldown = true;
-                    heavyAttackCooldown = true;
+                    startGlobalCooldown = true;
+                    startHeavyAttackCooldown = true;
                     Debug.Log("heavy attack");
                 }
             }
@@ -104,82 +123,137 @@ public class CharacterCombat : MonoBehaviour
             }
 
             // grab stone
-            if (grabCooldown == false)
+            if (startGrabCooldown == false)
             {
                 if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.JoystickButton1))
                 {
                     stoneGrabbed = true;
-                    globalCooldown = true;
-                    grabCooldown = true;
+                    startGlobalCooldown = true;
+                    startGrabCooldown = true;
                     Debug.Log("grab stone");
                 }
 
             }
         }
+----------------------------------------backup-----------------------------------------------------------*/
 
 
-        // CooldownTimer
+        // Cooldowns
 
         // global cooldown
-        if ((globalCooldown == true) && (globalCooldownSet < globalColldownTimer))
+        if ((startGlobalCooldown == true) && (globalCooldownSet < globalColldownTimer))
         {
             globalCooldownSet += Time.deltaTime;
         }
         else
         {
-            globalCooldown = false;
+            startGlobalCooldown = false;
             globalCooldownSet = 0f;
         }
 
         // light
-        if ((lightAttackCooldown == true) && (lightAttackTimer < lightAttackCooldownTime))
+        if ((startLightAttackCooldown == true) && (lightAttackCooldownSet < lightAttackCooldownTime))
         {
-            lightAttackTimer += Time.deltaTime;
+            lightAttackCooldownSet += Time.deltaTime;
         }
         else
         {
-            lightAttackCooldown = false;
-            lightAttackTimer = 0f;
+            startLightAttackCooldown = false;
+            lightAttackCooldownSet = 0f;
         }
 
         //heavy
-        if ((heavyAttackCooldown == true) && (heavyAttackTimer < heavyAttackCooldownTime))
+        if ((startHeavyAttackCooldown == true) && (heavyAttackCooldownSet < heavyAttackCooldownTime))
         {
-            heavyAttackTimer += Time.deltaTime;
+            heavyAttackCooldownSet += Time.deltaTime;
         }
         else
         {
-            heavyAttackCooldown = false;
-            heavyAttackTimer = 0f;
+            startHeavyAttackCooldown = false;
+            heavyAttackCooldownSet = 0f;
         }
 
         //grab
-        if ((grabCooldown == true) && (grabTimer < grabCooldownTime))
+        if ((startGrabCooldown == true) && (grabCooldownSet < grabCooldownTime))
         {
-            grabTimer += Time.deltaTime;
+            grabCooldownSet += Time.deltaTime;
         }
         else
         {
-            grabCooldown = false;
-            grabTimer = 0f;
+            startGrabCooldown = false;
+            grabCooldownSet = 0f;
         }
     }
-    
 
+    // functions for attacking
 
-    /*void grabStone()
+    // light attack
+    void startLightAttack()
     {
+        if ((startGlobalCooldown == false) && (startLightAttackCooldown == false))
+        {
+            if (stoneGrabbed == false)
+            {
+                lightAttackTrigger.enabled = true;
+                startGlobalCooldown = true;
+                startLightAttackCooldown = true;
+                Debug.Log("light attack");
+            }
+            else
+            {
+                throwStone();
+            }
+        }
+    }
 
-        dist = Vector3.Distance(closeByEnemy.position, transform.FindChild("GrabDetecter").position);
-        Debug.Log(dist);
-    }*/
+    void endLightAttack()
+    {
+        lightAttackTrigger.enabled = false;
+    }
 
+    // heavy attack
+    void startHeavyAttack()
+    {
+        if ((startGlobalCooldown == false) && (startHeavyAttackCooldown == false))
+        {
+            Instantiate(HeavyParticlePrefab, footSpawn.position, footSpawn.rotation);
+            heavyAttackTrigger.enabled = true;
+            startGlobalCooldown = true;
+            startHeavyAttackCooldown = true;
+            Debug.Log("heavy attack");
+        }
+    }
+
+    void endHeavyAttack()
+    {
+        heavyAttackTrigger.enabled = false;
+    }
+
+    // grab & throw stone
+    void grabStone()
+    {
+        if ((startGlobalCooldown == false) && (startGrabCooldown == false))
+        {
+            stoneGrabbed = true;
+            startGlobalCooldown = true;
+            startGrabCooldown = true;
+            Debug.Log("grab stone");
+        }
+    }
     void throwStone()
     {
         cloneStone = Instantiate(stonePrefab, stoneSpawn.position, stoneSpawn.rotation) as Rigidbody;
         cloneStone.AddForce((stoneSpawn.transform.up * throwSpeedUp) + (stoneSpawn.transform.right * throwSpeedRight));
         stoneGrabbed = false;
     }
+
+    // nearest enemy
+    //dist = Vector3.Distance(closeByEnemy.position, transform.FindChild("GrabDetecter").position);
+    //Debug.Log(dist);
+
+
+
+
 
 
     // closest enemy script
@@ -201,4 +275,5 @@ public class CharacterCombat : MonoBehaviour
 
         return bestTarget;
     }
+    
 }

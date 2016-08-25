@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnemyMachete : MonoBehaviour
 {
-    private Transform GetCharacter;
+    public Transform GetCharacter;
     public Animator anim;
     public Rigidbody  eBody;
 
@@ -25,7 +25,6 @@ public class EnemyMachete : MonoBehaviour
 
     void Awake()
     {
-        GetCharacter = GameObject.FindGameObjectWithTag("Character").transform;
         macheteTrigger = transform.FindDeepChild("MacheteTrigger").GetComponent<Collider>(); // zuweisung des colliders
     }
 
