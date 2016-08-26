@@ -5,7 +5,7 @@ public class EnemyMachete : MonoBehaviour
 {
     public Transform GetCharacter;
     public Animator anim;
-    public Rigidbody  eBody;
+    public Rigidbody eBody;
 
     public float MoveSpeed = 4.0f;
     public float MaxDist = 10.0f;
@@ -23,10 +23,6 @@ public class EnemyMachete : MonoBehaviour
     public Collider macheteTrigger;    // der collider der waffe
     public float macheteDamage = 75.0f;
 
-    void Awake()
-    {
-        macheteTrigger = transform.FindDeepChild("MacheteTrigger").GetComponent<Collider>(); // zuweisung des colliders
-    }
 
     //-------------------------------------------------------------------------------------------------------------------------------
     void Start()
@@ -94,7 +90,7 @@ public class EnemyMachete : MonoBehaviour
     
         //-------------------------------------------------------------------------------------------------------------------------------
         void Update()
-    {
+        {
         //Debug.Log(Vector3.Distance(transform.position, Player.position));
 
         // Wenn der Spieler NICHT in Sicht ist wird in einem BESTIMMTETn Interval "turningaround" ausgeführt

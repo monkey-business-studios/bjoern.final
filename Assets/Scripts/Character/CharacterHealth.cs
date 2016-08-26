@@ -30,10 +30,7 @@ public class CharacterHealth : MonoBehaviour {
     {
         _characterMovement = GetComponent<CharacterMovement>();
         levelReload = GetComponent<LevelReload>();
-
-        aura = transform.FindDeepChild("Bear_TOP").GetComponent<Renderer>();
-        auraFur = transform.FindDeepChild("BEAR_FUR").GetComponent<Renderer>();
-		
+	
 		anim = GetComponent<Animator>();
     }
 	

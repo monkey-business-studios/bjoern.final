@@ -5,13 +5,13 @@ public class CharacterCombat : MonoBehaviour
 {
     // global variables
     public Transform footSpawn;
+    public Animator anim;
 
     // global cooldown
     public bool startGlobalCooldown = false;
     public float globalCooldownSet = 0f;
     public float globalColldownTimer = 0.2f;
     
-
     // light attack
     private Collider lightAttackTrigger;
     public bool startLightAttackCooldown = false;
@@ -42,6 +42,9 @@ public class CharacterCombat : MonoBehaviour
     public Rigidbody stonePrefab;
     Rigidbody cloneStone;
 
+    // animation
+    public bool inputBear_heavyAttack = false;
+
     void Awake()
     {
         lightAttackTrigger = transform.FindDeepChild("LightAttackTrigger").GetComponent<Collider>();
@@ -49,98 +52,26 @@ public class CharacterCombat : MonoBehaviour
         //closeByEnemy = GetClosestEnemy(GameObject.Find("AllEnemies").transform, transform.position);
         stoneSpawn = GameObject.Find("StoneSpawn").transform;
         footSpawn = GameObject.Find("Foot").transform;
+        anim = GetComponent<Animator>();
 
     }
 
 
-    void FixedUpdate()
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.JoystickButton2))
-        {
-            startLightAttack();
-        }
-        else
-        {
-            endLightAttack();
-        }
-
+        // ---Input---
+        // Heavy Attack
         if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.JoystickButton3))
         {
-            startHeavyAttack();
-        }
-        else
-        {
-            endHeavyAttack();
-        }
-
-        if(Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.JoystickButton1))
-        {
-            grabStone();
-        }
-
-/*----------------------------------------backup-----------------------------------------------------------
-        if (startGlobalCooldown == false)
-        {
-            //light
-            if (startLightAttackCooldown == false)
+            if ((startGlobalCooldown == false) && (startHeavyAttackCooldown == false))
             {
-                if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.JoystickButton2))
-                {
-                    if (stoneGrabbed == false)
-                    {
-                        lightAttackTrigger.enabled = true;
-                        startGlobalCooldown = true;
-                        startLightAttackCooldown = true;
-                        Debug.Log("light attack");
-                    }
-                    else
-                    {
-                        throwStone();
-                    }
-
-                }
-            }
-            else
-            {
-                lightAttackTrigger.enabled = false;
-            }
-
-            // heavy
-            if (startHeavyAttackCooldown == false)
-            {
-                if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.JoystickButton3))
-                {
-                    Instantiate(HeavyParticlePrefab, footSpawn.position, footSpawn.rotation);
-                    heavyAttackTrigger.enabled = true;
-                    startGlobalCooldown = true;
-                    startHeavyAttackCooldown = true;
-                    Debug.Log("heavy attack");
-                }
-            }
-            else
-            {
-                heavyAttackTrigger.enabled = false;
-            }
-
-            // grab stone
-            if (startGrabCooldown == false)
-            {
-                if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.JoystickButton1))
-                {
-                    stoneGrabbed = true;
-                    startGlobalCooldown = true;
-                    startGrabCooldown = true;
-                    Debug.Log("grab stone");
-                }
-
+                inputBear_heavyAttack = true;
+                Debug.Log("!!!!!!!!!!!!!!!!!!!!!!!!!!!");
             }
         }
-----------------------------------------backup-----------------------------------------------------------*/
 
-
-        // Cooldowns
-
-        // global cooldown
+        // ---Cooldowns---
+        // Global Cooldown
         if ((startGlobalCooldown == true) && (globalCooldownSet < globalColldownTimer))
         {
             globalCooldownSet += Time.deltaTime;
@@ -151,7 +82,7 @@ public class CharacterCombat : MonoBehaviour
             globalCooldownSet = 0f;
         }
 
-        // light
+        // Light Attack Cooldown
         if ((startLightAttackCooldown == true) && (lightAttackCooldownSet < lightAttackCooldownTime))
         {
             lightAttackCooldownSet += Time.deltaTime;
@@ -161,8 +92,8 @@ public class CharacterCombat : MonoBehaviour
             startLightAttackCooldown = false;
             lightAttackCooldownSet = 0f;
         }
-
-        //heavy
+        
+        // Heavy Attack Cooldown
         if ((startHeavyAttackCooldown == true) && (heavyAttackCooldownSet < heavyAttackCooldownTime))
         {
             heavyAttackCooldownSet += Time.deltaTime;
@@ -173,7 +104,7 @@ public class CharacterCombat : MonoBehaviour
             heavyAttackCooldownSet = 0f;
         }
 
-        //grab
+        // Grab Stone Cooldown
         if ((startGrabCooldown == true) && (grabCooldownSet < grabCooldownTime))
         {
             grabCooldownSet += Time.deltaTime;
@@ -183,11 +114,14 @@ public class CharacterCombat : MonoBehaviour
             startGrabCooldown = false;
             grabCooldownSet = 0f;
         }
+
+        // ---Animation---
+        anim.SetBool("InputBear_HeavyAttack", inputBear_heavyAttack);
     }
 
-    // functions for attacking
-
-    // light attack
+    
+    // ---Attacking Methods---
+    // Light Attack
     void startLightAttack()
     {
         if ((startGlobalCooldown == false) && (startLightAttackCooldown == false))
@@ -211,25 +145,23 @@ public class CharacterCombat : MonoBehaviour
         lightAttackTrigger.enabled = false;
     }
 
-    // heavy attack
+    // Heavy Attack
     void startHeavyAttack()
     {
-        if ((startGlobalCooldown == false) && (startHeavyAttackCooldown == false))
-        {
-            Instantiate(HeavyParticlePrefab, footSpawn.position, footSpawn.rotation);
-            heavyAttackTrigger.enabled = true;
-            startGlobalCooldown = true;
-            startHeavyAttackCooldown = true;
-            Debug.Log("heavy attack");
-        }
+        Instantiate(HeavyParticlePrefab, footSpawn.position, footSpawn.rotation);
+        heavyAttackTrigger.enabled = true;
+        startGlobalCooldown = true;
+        startHeavyAttackCooldown = true;
+        Debug.Log("heavy attack");
     }
 
     void endHeavyAttack()
     {
         heavyAttackTrigger.enabled = false;
+        inputBear_heavyAttack = false;
     }
 
-    // grab & throw stone
+    // Grab & Throw
     void grabStone()
     {
         if ((startGlobalCooldown == false) && (startGrabCooldown == false))
@@ -252,10 +184,6 @@ public class CharacterCombat : MonoBehaviour
     //Debug.Log(dist);
 
 
-
-
-
-
     // closest enemy script
     static Transform GetClosestEnemy(Transform enemies, Vector3 currentPosition)
     {
@@ -275,5 +203,23 @@ public class CharacterCombat : MonoBehaviour
 
         return bestTarget;
     }
-    
+
+    /*
+    // Cooldown
+    float Cooldown(float timer)
+    {
+        float timerSet = 0f;
+        timerSet += Time.deltaTime;
+        Debug.Log(timerSet);
+
+        if (timerSet >= timer)
+        {
+            return 0;
+        }
+        else
+        {
+            return timerSet;
+        }
+    }
+    */
 }

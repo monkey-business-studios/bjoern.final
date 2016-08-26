@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: f9f2674a67f237f4d82dd74c0dd8411b
-timeCreated: 1472039440
+guid: 505e424fb601cc34aa7fb052f2ce66ee
+timeCreated: 1472124800
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -75,9 +75,9 @@ ModelImporter:
     100134: Bone.005
     100136: Bone.006
     100138: Bone.006_end
-    100140: //RootNode
-    100142: EnemyMachete_BONE
-    100144: EnemyMachete_MOD
+    100140: EnemyMachete_BONE
+    100142: EnemyMachete_MOD
+    100144: //RootNode
     400000: Bone
     400002: Bone.001
     400004: Bone.002
@@ -148,9 +148,9 @@ ModelImporter:
     400134: Bone.005
     400136: Bone.006
     400138: Bone.006_end
-    400140: //RootNode
-    400142: EnemyMachete_BONE
-    400144: EnemyMachete_MOD
+    400140: EnemyMachete_BONE
+    400142: EnemyMachete_MOD
+    400144: //RootNode
     4300000: EnemyMachete_MOD
     7400000: EnemyMachete_BONE|En1_atk_1
     7400002: EnemyMachete_BONE|En1_atk_2

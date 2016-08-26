@@ -48,6 +48,7 @@ public class CharacterMovement : MonoBehaviour
     private bool inputBear_WalkAttack = false;
     private bool inputBear_Dmg = false;
     private bool inputBear_Die = false;
+    private bool inputBear_heavyAttack = false;
 
     private bool inputBear_ThrowStone = false;
     private bool inputBear_Grab = false;
@@ -94,7 +95,7 @@ public class CharacterMovement : MonoBehaviour
         whatIsSpeed = rb.velocity.magnitude; //anzeigen der geschwindigkeit des rigidbody (debug)
         
     }
-
+   
 
     void Update()
     {
@@ -105,7 +106,7 @@ public class CharacterMovement : MonoBehaviour
         // jumping, space
         if ((grounded) && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.JoystickButton0)))
         {
-            rb.AddRelativeForce(new Vector2(0, jumpSpeed));
+            inputJumping = true;
         }
 
         // sprint
@@ -113,18 +114,21 @@ public class CharacterMovement : MonoBehaviour
         {
             sprintDurationSet += Time.deltaTime;
             maxSpeed = 25;
+            inputBear_Run = true;
             if (sprintDurationSet >= sprintDurationTimer)
             {
                 canSprint = false;
                 maxSpeed = 10;
                 startSprintCooldown = true;
                 sprintDurationSet = 0.0f;
+                inputBear_Run = false;
             }
 
         }
         else
         {
-            if(sprintDurationSet > 0)
+            inputBear_Run = false;
+            if (sprintDurationSet > 0)
             {
                 sprintDurationSet -= Time.deltaTime;
                 maxSpeed = 10;
@@ -189,6 +193,12 @@ public class CharacterMovement : MonoBehaviour
                 inputBear_Attack = standangriff;
                 inputBear_Bite = standangriff;
             }
+
+            if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.JoystickButton3))
+            {
+               
+                
+            }
         }
 
         if (characterCombat.stoneGrabbed == true && oneGrab == true)
@@ -202,18 +212,20 @@ public class CharacterMovement : MonoBehaviour
             oneGrab = true;
             inputBear_Grab = false;
         }
+
+        
+
         //Animation checking
         
        
         anim.SetBool("InputBear_Grab", inputBear_Grab);
 
         inputH = Input.GetAxis("Horizontal");
-        inputJumping = Input.GetKeyDown(KeyCode.Space);
-        inputBear_Run = Input.GetKey(KeyCode.LeftShift);
-
+        
         anim.SetFloat("InputH", inputH);
         anim.SetBool("InputJumping", inputJumping);
         anim.SetBool("InputBear_Run", inputBear_Run);
+        
 
         // zuweisung der moveDirection (-1 bis 1)
         moveDirection = Input.GetAxis("Horizontal");
@@ -244,5 +256,17 @@ public class CharacterMovement : MonoBehaviour
     {
         inputBear_ThrowStone = false;
         anim.SetBool("InputBear_Throw_Stone", inputBear_ThrowStone);
+    }
+    void jumping()
+    {
+        rb.AddRelativeForce(new Vector2(0, jumpSpeed));
+    }
+    void ResetInputJumpingFalse()
+    {
+        inputJumping = false;
+    }
+    void ResetInputHeavyAttackFalse()
+    {
+        inputBear_heavyAttack = false;
     }
 }
