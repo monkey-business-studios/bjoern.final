@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: ee803032a7fa75e40893e42f71455e0d
+timeCreated: 1472215145
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bulldozer
+    100002: //RootNode
+    100004: Camera
+    100006: "gel\xE4nder"
+    100008: "gel\xE4nder_2"
+    100010: "gel\xE4nder_3"
+    100012: kettenpanzer
+    100014: kettenpanzer_2
+    100016: Lamp
+    100018: metallpflug
+    100020: schaufel
+    100022: schaufelgitter
+    100024: schaufelhalter_1
+    100026: schaufelhalter_2
+    100028: Sun
+    100030: thing_1
+    100032: thing_2
+    400000: bulldozer
+    400002: //RootNode
+    400004: Camera
+    400006: "gel\xE4nder"
+    400008: "gel\xE4nder_2"
+    400010: "gel\xE4nder_3"
+    400012: kettenpanzer
+    400014: kettenpanzer_2
+    400016: Lamp
+    400018: metallpflug
+    400020: schaufel
+    400022: schaufelgitter
+    400024: schaufelhalter_1
+    400026: schaufelhalter_2
+    400028: Sun
+    400030: thing_1
+    400032: thing_2
+    2300000: bulldozer
+    2300002: "gel\xE4nder"
+    2300004: "gel\xE4nder_2"
+    2300006: "gel\xE4nder_3"
+    2300008: kettenpanzer
+    2300010: kettenpanzer_2
+    2300012: metallpflug
+    2300014: schaufel
+    2300016: schaufelgitter
+    2300018: schaufelhalter_1
+    2300020: schaufelhalter_2
+    2300022: thing_1
+    2300024: thing_2
+    3300000: bulldozer
+    3300002: "gel\xE4nder"
+    3300004: "gel\xE4nder_2"
+    3300006: "gel\xE4nder_3"
+    3300008: kettenpanzer
+    3300010: kettenpanzer_2
+    3300012: metallpflug
+    3300014: schaufel
+    3300016: schaufelgitter
+    3300018: schaufelhalter_1
+    3300020: schaufelhalter_2
+    3300022: thing_1
+    3300024: thing_2
+    4300000: bulldozer
+    4300002: thing_2
+    4300004: thing_1
+    4300006: "gel\xE4nder_3"
+    4300008: "gel\xE4nder_2"
+    4300010: "gel\xE4nder"
+    4300012: schaufelhalter_2
+    4300014: schaufelhalter_1
+    4300016: schaufel
+    4300018: schaufelgitter
+    4300020: metallpflug
+    4300022: kettenpanzer_2
+    4300024: kettenpanzer
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -44,6 +44,7 @@ public class CharacterCombat : MonoBehaviour
 
     // animation
     public bool inputBear_heavyAttack = false;
+    //private bool inputBear_ThrowStone = false;
 
     void Awake()
     {
@@ -56,10 +57,13 @@ public class CharacterCombat : MonoBehaviour
 
     }
 
+    void Start()
+    {
+    }
 
     void Update()
     {
-        // ---Input---
+        // ---CombatInput---
         // Heavy Attack
         if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.JoystickButton3))
         {
@@ -68,6 +72,12 @@ public class CharacterCombat : MonoBehaviour
                 inputBear_heavyAttack = true;
                 Debug.Log("!!!!!!!!!!!!!!!!!!!!!!!!!!!");
             }
+        }
+
+        // Stone
+        if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.JoystickButton1))
+        {
+            grabStone();
         }
 
         // ---Cooldowns---

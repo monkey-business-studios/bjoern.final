@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: 9ce22e62267e9eb4c9a8caf8038c84cd
+timeCreated: 1472133940
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bar_Left_001
+    21300002: Bar_Left_003
+    21300004: Bark_BigTree_001
+    21300006: Bark_BigTree_002
+    21300008: Door_right_001
+    21300010: Door_Left_001
+    21300012: Bark_BigTree_007
+    21300014: Treebark_Left_002
+    21300016: Treebark_Left_001
+    21300018: Treebark_Right_002
+    21300020: Treebark_Right_001
+    21300022: Bar_Left_002
+    21300024: Bar_Right_001
+    21300026: Bar_Right_002
+    21300028: Bar_Right_003
+    21300030: Bark_BigTree_003
+    21300032: Bark_BigTree_004
+    21300034: Bark_BigTree_005
+    21300036: Bark_BigTree_006
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bar_Left_001
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 5083
+        width: 2876
+        height: 1666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bar_Left_003
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 5000
+        width: 1978
+        height: 1720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bark_BigTree_001
+      rect:
+        serializedVersion: 2
+        x: 6003
+        y: 5574
+        width: 777
+        height: 1089
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bark_BigTree_002
+      rect:
+        serializedVersion: 2
+        x: 6925
+        y: 5565
+        width: 781
+        height: 1095
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Door_right_001
+      rect:
+        serializedVersion: 2
+        x: 7245
+        y: 4498
+        width: 468
+        height: 953
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Door_Left_001
+      rect:
+        serializedVersion: 2
+        x: 6625
+        y: 4509
+        width: 457
+        height: 953
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bark_BigTree_007
+      rect:
+        serializedVersion: 2
+        x: 5129
+        y: 4468
+        width: 1489
+        height: 1098
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treebark_Left_002
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 2430
+        width: 549
+        height: 2422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treebark_Left_001
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 2764
+        width: 383
+        height: 1701
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treebark_Right_002
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 2742
+        width: 405
+        height: 1716
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treebark_Right_001
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2975
+        width: 450
+        height: 1429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bar_Left_002
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2996
+        width: 1838
+        height: 1966
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bar_Right_001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 3024
+        height: 2260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bar_Right_002
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 299
+        width: 1553
+        height: 1971
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bar_Right_003
+      rect:
+        serializedVersion: 2
+        x: 4665
+        y: 250
+        width: 1480
+        height: 4095
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bark_BigTree_003
+      rect:
+        serializedVersion: 2
+        x: 6526
+        y: 3367
+        width: 780
+        height: 1089
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bark_BigTree_004
+      rect:
+        serializedVersion: 2
+        x: 6527
+        y: 2245
+        width: 779
+        height: 1094
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bark_BigTree_005
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 1345
+        width: 1250
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Bark_BigTree_006
+      rect:
+        serializedVersion: 2
+        x: 6548
+        y: 193
+        width: 786
+        height: 1099
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

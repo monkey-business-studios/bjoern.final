@@ -149,7 +149,7 @@ public class CharacterMovement : MonoBehaviour
         }
 		
 		//Code for Animations ----------------------------------------------------------------------------------
-		   if (moveDirection != 0 && characterCombat.stoneGrabbed == false)
+		   if (moveDirection != 0 /*&& characterCombat.stoneGrabbed == false*/)
         {
            
 
@@ -157,7 +157,7 @@ public class CharacterMovement : MonoBehaviour
             anim.SetBool("InputBear_WalkAttack", inputBear_WalkAttack);
 
         }
-        else if (moveDirection != 0 && characterCombat.stoneGrabbed == true)
+        else if (moveDirection != 0 /*&& characterCombat.stoneGrabbed == true*/)
         {
             inputBear_ThrowStone = Input.GetKeyDown(KeyCode.Mouse0);
             anim.SetBool("InputBear_Throw_Stone", inputBear_ThrowStone);
