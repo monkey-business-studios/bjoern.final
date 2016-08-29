@@ -1,0 +1,571 @@
+fileFormatVersion: 2
+guid: 9eab71ac3d72ba446884e7889df27273
+timeCreated: 1472132522
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rock_001
+    21300002: Rock_002
+    21300004: Rock_003
+    21300006: Rock_004
+    21300008: Rock_005
+    21300010: Liana_Foreground_001
+    21300012: Liana_Foreground_002
+    21300014: Liana_Midground_001
+    21300016: Liana_Midground_002
+    21300018: Liana_Background_001
+    21300020: Liana_Background_002
+    21300022: Ash_Moveground_001
+    21300024: Ash_Background_001
+    21300026: assets_part3_13
+    21300028: assets_part3_14
+    21300030: assets_part3_15
+    21300032: assets_part3_16
+    21300034: assets_part3_17
+    21300036: assets_part3_18
+    21300038: Ash_Foreground_001
+    21300040: Liana_Foreground_003
+    21300042: Liana_Foreground_004
+    21300044: Liana_Midground_003
+    21300046: Liana_Midground_004
+    21300048: Liana_Background_003
+    21300050: Liana_Background_004
+    21300052: Treetrunk_Background_001
+    21300054: Treetrunk_Background_002
+    21300056: Treetrunk_Background_003
+    21300058: Treetrunk_Background_004
+    21300060: Treetrunk_Background_005
+    21300062: Treetrunk_Background_006
+    21300064: Treetrunk_Background_007
+    21300066: Treetrunk_Background_008
+    21300068: Treetrunk_Background_009
+    21300070: Stick_001
+    21300072: Treetrunk_Background_018
+    21300074: Treetrunk_Background_017
+    21300076: Treetrunk_Background_016
+    21300078: Treetrunk_Background_015
+    21300080: Treetrunk_Background_014
+    21300082: Treetrunk_Background_013
+    21300084: Treetrunk_Background_012
+    21300086: Treetrunk_Background_011
+    21300088: Treetrunk_Background_010
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rock_001
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 6040
+        width: 751
+        height: 629
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Rock_002
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 5925
+        width: 1008
+        height: 755
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Rock_003
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 5253
+        width: 606
+        height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Rock_004
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 5217
+        width: 669
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Rock_005
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 5251
+        width: 721
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Foreground_001
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 5225
+        width: 489
+        height: 1372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Foreground_002
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 5243
+        width: 364
+        height: 1255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Midground_001
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 4978
+        width: 568
+        height: 1541
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Midground_002
+      rect:
+        serializedVersion: 2
+        x: 4717
+        y: 5010
+        width: 436
+        height: 1413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Background_001
+      rect:
+        serializedVersion: 2
+        x: 5391
+        y: 4987
+        width: 562
+        height: 1545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Background_002
+      rect:
+        serializedVersion: 2
+        x: 6220
+        y: 5010
+        width: 428
+        height: 1392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Ash_Moveground_001
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 4574
+        width: 2020
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Ash_Background_001
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 4030
+        width: 2562
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Ash_Foreground_001
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3505
+        width: 2559
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Foreground_003
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 3769
+        width: 330
+        height: 1259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Foreground_004
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 3850
+        width: 448
+        height: 1164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Midground_003
+      rect:
+        serializedVersion: 2
+        x: 4351
+        y: 3401
+        width: 369
+        height: 1417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Midground_004
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 3486
+        width: 511
+        height: 1308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Background_003
+      rect:
+        serializedVersion: 2
+        x: 5845
+        y: 3398
+        width: 373
+        height: 1422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Liana_Background_004
+      rect:
+        serializedVersion: 2
+        x: 6412
+        y: 3489
+        width: 511
+        height: 1301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_001
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2151
+        width: 250
+        height: 1215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_002
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1736
+        width: 348
+        height: 1683
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_003
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1721
+        width: 447
+        height: 1641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_004
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 2149
+        width: 345
+        height: 1230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_005
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 2140
+        width: 531
+        height: 1238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_006
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 1708
+        width: 468
+        height: 1652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_007
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 1708
+        width: 699
+        height: 1649
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_008
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 1708
+        width: 464
+        height: 1647
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_009
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 1715
+        width: 707
+        height: 1647
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Stick_001
+      rect:
+        serializedVersion: 2
+        x: 6301
+        y: 248
+        width: 122
+        height: 2739
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_018
+      rect:
+        serializedVersion: 2
+        x: 5678
+        y: 450
+        width: 253
+        height: 1219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_017
+      rect:
+        serializedVersion: 2
+        x: 5176
+        y: 42
+        width: 345
+        height: 1660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_016
+      rect:
+        serializedVersion: 2
+        x: 4526
+        y: 38
+        width: 432
+        height: 1630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_015
+      rect:
+        serializedVersion: 2
+        x: 4074
+        y: 452
+        width: 339
+        height: 1228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_014
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 452
+        width: 524
+        height: 1233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_013
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 5
+        width: 451
+        height: 1657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_012
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 2
+        width: 716
+        height: 1669
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_011
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 0
+        width: 458
+        height: 1671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Treetrunk_Background_010
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 14
+        width: 742
+        height: 1654
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

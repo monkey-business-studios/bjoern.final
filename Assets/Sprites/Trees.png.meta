@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 28f578c88ab284744ab8ac387f5210f7
+timeCreated: 1472134892
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tree_Background_001
+    21300002: Tree_Background_002
+    21300004: Tree_Background_003
+    21300006: Tree_Background_004
+    21300008: Tree_Midground_001
+    21300010: Tree_Midground_002
+    21300012: Tree_Midground_003
+    21300014: Tree_Midground_004
+    21300016: Tree_Foreground_002
+    21300018: Tree_Foreground_004
+    21300020: Tree_Foreground_001
+    21300022: Tree_Foreground_003
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tree_Background_001
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 5172
+        width: 1612
+        height: 1069
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Background_002
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 5168
+        width: 1522
+        height: 1162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Background_003
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 3853
+        width: 1639
+        height: 1181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Background_004
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 3831
+        width: 1586
+        height: 1298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Midground_001
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2433
+        width: 1904
+        height: 1298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Midground_002
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 2433
+        width: 1800
+        height: 1357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Midground_003
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 938
+        width: 1913
+        height: 1387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Midground_004
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 926
+        width: 1807
+        height: 1492
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Foreground_002
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 5058
+        width: 1817
+        height: 1381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Foreground_004
+      rect:
+        serializedVersion: 2
+        x: 4541
+        y: 3520
+        width: 1818
+        height: 1515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Foreground_001
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 2067
+        width: 1865
+        height: 1278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Tree_Foreground_003
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 548
+        width: 1880
+        height: 1394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
