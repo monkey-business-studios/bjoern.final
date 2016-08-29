@@ -5,9 +5,8 @@ public class EnemySpear : MonoBehaviour
 {
     public Collider spearTrigger;
     public float spearDamage = 100.0f;
-
     public Transform GetCharacter;
-    //public Animator anim;
+    public Animator anim;
     public Rigidbody eBody;
 
     public float MoveSpeed = 4.0f;
@@ -19,21 +18,87 @@ public class EnemySpear : MonoBehaviour
     bool transformvar;
     bool playerinsight;
 
+    //animator parameters
+    public bool enemyWalk = false;
+    public bool enemyAttack = false;
+
+
     private string animstatus;
 
     private Vector3 targetposition;
 
+    public Collider macheteTrigger;    // der collider der waffe
+    public float macheteDamage = 75.0f;
+
+
+    //-------------------------------------------------------------------------------------------------------------------------------
     void Start()
     {
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         playerinsight = false;
         transformvar = false;
         eBody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezePositionZ;
 
     }
 
+    //-------------------------------------------------------------------------------------------------------------------------------
+    // 3 verschiedene Arten wie sich der Gegner verhält wenn der Spieler nicht zu sehen ist
+    public void turningaround()
+    {
+        transformvar = false;
+        transform.RotateAround(transform.position, transform.up, 90f);
+
+    }
+
+    public void walkingaround()
+    {
+        // walk in a specific area
+    }
+
+    public void sleeping()
+    {
+        // do nothing
+
+    }
+    public void walking()
+    {
+
+        Vector3 targetposition = new Vector3(GetCharacter.position.x, this.transform.position.y, GetCharacter.position.z);
+
+        this.transform.LookAt(targetposition);
+
+        transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+
+
+        enemyWalk = true;
+        enemyAttack = false;
+
+
+    }
+    public void attacking()
+    {
+        enemyWalk = false;
+        enemyAttack = true;
+    }
+    void startAttacking()
+    {
+
+    }
+    void stopAttacking()
+    {
+        
+    }
+
+
+    //-------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
+
+        // animatorparameters
+        anim.SetBool("EnemyWalk", enemyWalk);
+        anim.SetBool("EnemyAttack", enemyAttack);
+
+
         //Debug.Log(Vector3.Distance(transform.position, Player.position));
 
         // Wenn der Spieler NICHT in Sicht ist wird in einem BESTIMMTETn Interval "turningaround" ausgeführt
@@ -41,7 +106,7 @@ public class EnemySpear : MonoBehaviour
         {
 
             transformvar = true;
-
+            Invoke("turningaround", 2);
 
         }
 
@@ -66,6 +131,7 @@ public class EnemySpear : MonoBehaviour
         // Wenn der Spieler nah genug am Gegner drann ist fängt er an ihn zu verfolgen
         if (Vector3.Distance(transform.position, GetCharacter.position) <= MaxDist && Vector3.Distance(transform.position, GetCharacter.position) >= MinDist)
         {
+            Invoke("walking", 0.25f);
 
         }
 
@@ -82,19 +148,7 @@ public class EnemySpear : MonoBehaviour
         // Wenn der Gegner nah genug am Spieler drann ist soll er angreifen
         if (Vector3.Distance(transform.position, GetCharacter.position) <= attackdistance)
         {
-
+            Invoke("attacking", 0.25f);
         }
-    }
-
-
-    public void walking()
-    {
-
-        Vector3 targetposition = new Vector3(GetCharacter.position.x, this.transform.position.y, GetCharacter.position.z);
-
-        this.transform.LookAt(targetposition);
-
-        transform.position += transform.forward * MoveSpeed * Time.deltaTime;
-
     }
 }

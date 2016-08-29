@@ -13,11 +13,16 @@ public class EnemyMachete : MonoBehaviour
     public float attackdistance = 3.5f;
     float viewingdistance = 16.0f;
 
-    bool transformvar; 
+    bool transformvar;
     bool playerinsight;
 
+    //animator parameters
+    public bool enemyWalk = false;
+    public bool enemyAttack = false;
+
+
     private string animstatus;
-    
+
     private Vector3 targetposition;
 
     public Collider macheteTrigger;    // der collider der waffe
@@ -33,14 +38,14 @@ public class EnemyMachete : MonoBehaviour
         eBody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezePositionZ;
 
     }
-    
+
     //-------------------------------------------------------------------------------------------------------------------------------
     // 3 verschiedene Arten wie sich der Gegner verhält wenn der Spieler nicht zu sehen ist
     public void turningaround()
     {
         transformvar = false;
         transform.RotateAround(transform.position, transform.up, 90f);
-        
+
     }
 
     public void walkingaround()
@@ -62,35 +67,37 @@ public class EnemyMachete : MonoBehaviour
 
         transform.position += transform.forward * MoveSpeed * Time.deltaTime;
 
-        //Debug.Log("walking function");
-        if (animstatus == "Standing")
-        {
-            macheteTrigger.enabled = false;
-            anim.Play("en_1_arm|En1_stand 0", -1, 1);
-            animstatus = "Walking";
-        }
+        macheteTrigger.enabled = false;
 
-        if (animstatus == "Attacking")
-        {
-            macheteTrigger.enabled = false;
-            anim.Play("en_1_arm|En1_atk_1 0 0", -1, 2f);
-            animstatus = "Walking";
-        }
-    }  
-        public void attacking()
+        enemyWalk = true;
+        enemyAttack = false; ;
+
+
+    }
+    public void attacking()
+    {
+        enemyWalk = false;
+        enemyAttack = true;
+    }
+    void startAttacking()
+    {
+        macheteTrigger.enabled = true;
+    }
+    void stopAttacking()
+    {
+        macheteTrigger.enabled = false;
+    }
+
+
+    //-------------------------------------------------------------------------------------------------------------------------------
+    void Update()
     {
 
-        if (animstatus == "Walking")
-        {
-            macheteTrigger.enabled = true;
-            anim.Play("en_1_arm|En1_walk_1 0 0", -1, 1);
-            animstatus = "Attacking";
-        }
-    }
-    
-        //-------------------------------------------------------------------------------------------------------------------------------
-        void Update()
-        {
+        // animatorparameters
+        anim.SetBool("EnemyWalk", enemyWalk);
+        anim.SetBool("EnemyAttack", enemyAttack);
+
+
         //Debug.Log(Vector3.Distance(transform.position, Player.position));
 
         // Wenn der Spieler NICHT in Sicht ist wird in einem BESTIMMTETn Interval "turningaround" ausgeführt
@@ -99,8 +106,6 @@ public class EnemyMachete : MonoBehaviour
 
             transformvar = true;
             Invoke("turningaround", 2);
-            anim.Play("en_1_arm|En1_stand");
-            animstatus = "Standing";
 
         }
 
@@ -121,24 +126,24 @@ public class EnemyMachete : MonoBehaviour
         }
 
 
-  
+
         // Wenn der Spieler nah genug am Gegner drann ist fängt er an ihn zu verfolgen
         if (Vector3.Distance(transform.position, GetCharacter.position) <= MaxDist && Vector3.Distance(transform.position, GetCharacter.position) >= MinDist)
         {
             Invoke("walking", 0.25f);
-           
+
         }
-    
+
         if (Vector3.Distance(transform.position, GetCharacter.position) <= MaxDist)
         {
             //Here Call any function U want Like Shoot at here or something
         }
         else
         {
-          
+
         }
-         
-        
+
+
         // Wenn der Gegner nah genug am Spieler drann ist soll er angreifen
         if (Vector3.Distance(transform.position, GetCharacter.position) <= attackdistance)
         {
