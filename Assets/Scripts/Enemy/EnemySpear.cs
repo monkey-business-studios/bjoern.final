@@ -119,16 +119,6 @@ public class EnemySpear : MonoBehaviour
 
     }
 
-    public void walkingaround()
-    {
-        // walk in a specific area
-    }
-
-    public void sleeping()
-    {
-        // do nothing
-
-    }
     public void walking()
     {
         Vector3 targetposition = new Vector3(GetCharacter.position.x, this.transform.position.y, GetCharacter.position.z);
@@ -146,15 +136,6 @@ public class EnemySpear : MonoBehaviour
         enemyWalk = false;
         enemyAttack = true;
     }
-    void startAttacking()
-    {
-
-    }
-    void stopAttacking()
-    {
-        
-    }
-
 
 
     // ---Trigger/Collider Events---

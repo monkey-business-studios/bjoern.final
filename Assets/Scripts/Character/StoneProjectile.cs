@@ -29,11 +29,6 @@ public class StoneProjectile : MonoBehaviour {
 
     void OnCollisionEnter(Collision collision)
     {
-        foreach (ContactPoint contact in collision.contacts)
-        {
-            Debug.DrawRay(contact.point, contact.normal, Color.green);
-            //Debug.Log("STONE HIT COLLIDER");
-        }
         lifeSpan = 0.2f;
         Destroy(gameObject, lifeSpan);
     }
