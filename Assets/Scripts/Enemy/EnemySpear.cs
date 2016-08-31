@@ -3,7 +3,6 @@ using System.Collections;
 
 public class EnemySpear : MonoBehaviour
 {
-    public Collider spearTrigger;
     public float spearDamage = 100.0f;
     public float spearHealth = 200.0f;
     private Rigidbody rb;
