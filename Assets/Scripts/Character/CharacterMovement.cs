@@ -249,7 +249,6 @@ public class CharacterMovement : MonoBehaviour
         anim.SetBool("InputBear_Grab", inputBear_Grab);
         anim.SetBool("InputBear_Attack", inputBear_Attack);
         anim.SetBool("InputBear_Bite", inputBear_Bite);
-        Debug.Log("werte zurückgesetzt!");
     }
     
     void SetThrowStoneFalse()

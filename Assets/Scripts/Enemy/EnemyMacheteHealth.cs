@@ -25,20 +25,17 @@ public class EnemyMacheteHealth : MonoBehaviour
         if (other.CompareTag("LightAttackTrigger"))
         {
             enemyHealth -= _CharacterCombat.lightAttackDamage;
-            Debug.Log(enemyHealth);
         }
 
         if (other.CompareTag("HeavyAttackTrigger"))
         {
             enemyHealth -= _CharacterCombat.heavyAttackDamage;
-            Debug.Log(enemyHealth);
         }
 
         if (other.CompareTag("StoneProjectileTrigger"))
         {
             enemyHealth -= _CharacterCombat.stoneDamage;
             rb.AddExplosionForce(10f, transform.position, 5f);
-            Debug.Log("HIT");
         }
 
     }

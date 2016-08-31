@@ -5,6 +5,11 @@ public class EnemySpear : MonoBehaviour
 {
     public Collider spearTrigger;
     public float spearDamage = 100.0f;
+    public float spearHealth = 200.0f;
+    private Rigidbody rb;
+    public CharacterCombat _CharacterCombat;
+
+    // franz AI
     public Transform GetCharacter;
     public Animator anim;
     public Rigidbody eBody;
@@ -18,18 +23,19 @@ public class EnemySpear : MonoBehaviour
     bool transformvar;
     bool playerinsight;
 
-    //animator parameters
-    public bool enemyWalk = false;
-    public bool enemyAttack = false;
-
-
-    private string animstatus;
-
     private Vector3 targetposition;
+    //animator parameters
+    private bool enemyWalk = false;
+    private bool enemyAttack = false;
+    private string animstatus;
+    
 
-    public Collider macheteTrigger;    // der collider der waffe
-    public float macheteDamage = 75.0f;
 
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+        GetCharacter = GameObject.FindWithTag("Character").transform;
+    }
 
     //-------------------------------------------------------------------------------------------------------------------------------
     void Start()
@@ -41,58 +47,13 @@ public class EnemySpear : MonoBehaviour
 
     }
 
-    //-------------------------------------------------------------------------------------------------------------------------------
-    // 3 verschiedene Arten wie sich der Gegner verhält wenn der Spieler nicht zu sehen ist
-    public void turningaround()
-    {
-        transformvar = false;
-        transform.RotateAround(transform.position, transform.up, 90f);
-
-    }
-
-    public void walkingaround()
-    {
-        // walk in a specific area
-    }
-
-    public void sleeping()
-    {
-        // do nothing
-
-    }
-    public void walking()
-    {
-
-        Vector3 targetposition = new Vector3(GetCharacter.position.x, this.transform.position.y, GetCharacter.position.z);
-
-        this.transform.LookAt(targetposition);
-
-        transform.position += transform.forward * MoveSpeed * Time.deltaTime;
-
-
-        enemyWalk = true;
-        enemyAttack = false;
-
-
-    }
-    public void attacking()
-    {
-        enemyWalk = false;
-        enemyAttack = true;
-    }
-    void startAttacking()
-    {
-
-    }
-    void stopAttacking()
-    {
-        
-    }
-
-
-    //-------------------------------------------------------------------------------------------------------------------------------
     void Update()
     {
+
+        if (spearHealth <= 0)
+        {
+            Destroy(this.gameObject);
+        }
 
         // animatorparameters
         anim.SetBool("EnemyWalk", enemyWalk);
@@ -150,5 +111,72 @@ public class EnemySpear : MonoBehaviour
         {
             Invoke("attacking", 0.25f);
         }
+    }
+
+    public void turningaround()
+    {
+        transformvar = false;
+        transform.RotateAround(transform.position, transform.up, 90f);
+
+    }
+
+    public void walkingaround()
+    {
+        // walk in a specific area
+    }
+
+    public void sleeping()
+    {
+        // do nothing
+
+    }
+    public void walking()
+    {
+        Vector3 targetposition = new Vector3(GetCharacter.position.x, this.transform.position.y, GetCharacter.position.z);
+
+        this.transform.LookAt(targetposition);
+
+        transform.position += transform.forward * MoveSpeed * Time.deltaTime;
+
+
+        enemyWalk = true;
+        enemyAttack = false;
+    }
+    public void attacking()
+    {
+        enemyWalk = false;
+        enemyAttack = true;
+    }
+    void startAttacking()
+    {
+
+    }
+    void stopAttacking()
+    {
+        
+    }
+
+
+
+    // ---Trigger/Collider Events---
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("LightAttackTrigger"))
+        {
+            spearHealth -= _CharacterCombat.lightAttackDamage;
+        }
+
+        if (other.CompareTag("HeavyAttackTrigger"))
+        {
+            spearHealth -= _CharacterCombat.heavyAttackDamage;
+        }
+
+        if (other.CompareTag("StoneProjectileTrigger"))
+        {
+            spearHealth -= _CharacterCombat.stoneDamage;
+            Debug.Log(spearHealth);
+        }
+
     }
 }

@@ -32,8 +32,9 @@ public class CharacterCombat : MonoBehaviour
     public float grabCooldownSet = 0.0f;
     public float grabCooldownTime = 5.0f;
     public bool stoneGrabbed = false;
-    public float stoneDamage;
+    public float stoneDamage = 75f;
     private Transform grabDetecter;
+    private MeshRenderer stoneMesh;
     //private Transform closeByEnemy;
     float dist;
     public float throwSpeedUp = 2000.0f;
@@ -50,15 +51,12 @@ public class CharacterCombat : MonoBehaviour
     {
         lightAttackTrigger = transform.FindDeepChild("LightAttackTrigger").GetComponent<Collider>();
         heavyAttackTrigger = transform.FindDeepChild("HeavyAttackTrigger").GetComponent<Collider>();
+        stoneMesh = transform.FindDeepChild("stoneMesh").GetComponent<MeshRenderer>();
         //closeByEnemy = GetClosestEnemy(GameObject.Find("AllEnemies").transform, transform.position);
         stoneSpawn = GameObject.Find("StoneSpawn").transform;
         footSpawn = GameObject.Find("Foot").transform;
         anim = GetComponent<Animator>();
 
-    }
-
-    void Start()
-    {
     }
 
     void Update()
@@ -70,7 +68,7 @@ public class CharacterCombat : MonoBehaviour
             if ((startGlobalCooldown == false) && (startHeavyAttackCooldown == false))
             {
                 inputBear_heavyAttack = true;
-                Debug.Log("!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                
             }
         }
 
@@ -141,7 +139,6 @@ public class CharacterCombat : MonoBehaviour
                 lightAttackTrigger.enabled = true;
                 startGlobalCooldown = true;
                 startLightAttackCooldown = true;
-                Debug.Log("light attack");
             }
             else
             {
@@ -162,7 +159,6 @@ public class CharacterCombat : MonoBehaviour
         heavyAttackTrigger.enabled = true;
         startGlobalCooldown = true;
         startHeavyAttackCooldown = true;
-        Debug.Log("heavy attack");
     }
 
     void endHeavyAttack()
@@ -177,9 +173,9 @@ public class CharacterCombat : MonoBehaviour
         if ((startGlobalCooldown == false) && (startGrabCooldown == false))
         {
             stoneGrabbed = true;
+            stoneMesh.enabled = true;
             startGlobalCooldown = true;
             startGrabCooldown = true;
-            Debug.Log("grab stone");
         }
     }
     void throwStone()
@@ -187,13 +183,13 @@ public class CharacterCombat : MonoBehaviour
         cloneStone = Instantiate(stonePrefab, stoneSpawn.position, stoneSpawn.rotation) as Rigidbody;
         cloneStone.AddForce((stoneSpawn.transform.up * throwSpeedUp) + (stoneSpawn.transform.right * throwSpeedRight));
         stoneGrabbed = false;
+        stoneMesh.enabled = false;
     }
 
     // nearest enemy
     //dist = Vector3.Distance(closeByEnemy.position, transform.FindChild("GrabDetecter").position);
     //Debug.Log(dist);
-
-
+    
     // closest enemy script
     static Transform GetClosestEnemy(Transform enemies, Vector3 currentPosition)
     {

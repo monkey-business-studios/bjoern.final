@@ -26,8 +26,12 @@ public class EnemyMachete : MonoBehaviour
     private Vector3 targetposition;
 
     public Collider macheteTrigger;    // der collider der waffe
-    public float macheteDamage = 75.0f;
+    public float macheteDamage = 35.0f;
 
+    void Awake()
+    {
+        GetCharacter = GameObject.FindWithTag("Character").transform;
+    }
 
     //-------------------------------------------------------------------------------------------------------------------------------
     void Start()
