@@ -172,7 +172,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -185,7 +185,1921 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: En2_atk_1
+      takeName: En2_atk_1
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: En2_dead
+      takeName: En2_dead
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: En2_dmg_1
+      takeName: En2_dmg_1
+      firstFrame: 0
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: En2_fall
+      takeName: En2_fall
+      firstFrame: 0
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: En2_IDLE
+      takeName: En2_IDLE
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: En2_standup
+      takeName: En2_standup
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: En2_walk_1
+      takeName: En2_walk_1
+      firstFrame: 0
+      lastFrame: 123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: En2_walk_2
+      takeName: En2_walk_2
+      firstFrame: 0
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EnemySpear_BONE|En2_dead
+      takeName: EnemySpear_BONE|En2_dead
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EnemySpear_BONE|En2_dmg_1
+      takeName: EnemySpear_BONE|En2_dmg_1
+      firstFrame: 0
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EnemySpear_BONE|En2_IDLE
+      takeName: EnemySpear_BONE|En2_IDLE
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EnemySpear_BONE
+        weight: 1
+      - path: EnemySpear_BONE/Bone
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.004/Bone.003_L.005/Bone.003_L.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.006/Bone.003_L.007/Bone.003_L.008/Bone.003_L.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.009/Bone.003_L.010/Bone.003_L.011/Bone.003_L.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.012/Bone.003_L.013/Bone.003_L.014/Bone.003_L.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.015/Bone.003_L.016/Bone.003_L.017/Bone.003_L.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_L/Bone.003_L.001/Bone.003_L.002/Bone.003_L.003/Bone.003_L.018/Bone.003_L.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.004/Bone.003_R.005/Bone.003_R.005_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.006/Bone.003_R.007/Bone.003_R.008/Bone.003_R.008_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.009/Bone.003_R.010/Bone.003_R.011/Bone.003_R.011_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.012/Bone.003_R.013/Bone.003_R.014/Bone.003_R.014_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.015/Bone.003_R.016/Bone.003_R.017/Bone.003_R.017_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.003_R/Bone.003_R.001/Bone.003_R.002/Bone.003_R.003/Bone.003_R.018/Bone.003_R.018_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.002/Bone.003/Bone.005/Bone.006/Bone.006_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_L/Bone.004_L.001/Bone.004_L.002/Bone.004_L.003/Bone.004_L.004/Bone.004_L.004_end
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004
+        weight: 1
+      - path: EnemySpear_BONE/Bone/Bone.001/Bone.004/Bone.004_R/Bone.004_R.001/Bone.004_R.002/Bone.004_R.003/Bone.004_R.004/Bone.004_R.004_end
+        weight: 1
+      - path: EnemySpear_MOD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

@@ -28,7 +28,10 @@ public class EnemySpear : MonoBehaviour
     private bool enemyWalk = false;
     private bool enemyAttack = false;
     private string animstatus;
-    
+    public bool enemyGetHit = false;
+    public bool enemyDead = false;
+    public bool enemyDeadOnce = false;
+
 
 
     void Awake()
@@ -49,12 +52,21 @@ public class EnemySpear : MonoBehaviour
 
     void Update()
     {
+        anim.SetBool("EnemyGetHit", enemyGetHit);
+        anim.SetBool("EnemyDead", enemyDead);
 
-        if (spearHealth <= 0)
+        if (enemyGetHit == true)
         {
-            Destroy(this.gameObject);
+            enemyGetHit = false;
         }
+        if (spearHealth <= 0 && enemyDeadOnce == false)
+        {
+            enemyDead = true;
+            enemyDeadOnce = true;
+            Invoke("DestroyEnemy", 3);
 
+           
+        }
         // animatorparameters
         anim.SetBool("EnemyWalk", enemyWalk);
         anim.SetBool("EnemyAttack", enemyAttack);
@@ -63,7 +75,7 @@ public class EnemySpear : MonoBehaviour
         //Debug.Log(Vector3.Distance(transform.position, Player.position));
 
         // Wenn der Spieler NICHT in Sicht ist wird in einem BESTIMMTETn Interval "turningaround" ausgeführt
-        if (transformvar == false && playerinsight == false)
+        if (transformvar == false && playerinsight == false && enemyDead == false)
         {
 
             transformvar = true;
@@ -72,7 +84,7 @@ public class EnemySpear : MonoBehaviour
         }
 
         // Wenn der Spieler in der Nähe ist guckt der Gegner ihn an und hört auf sich umzudrehen, wenn nicht dreht er sich weiter
-        if (Vector3.Distance(transform.position, GetCharacter.position) <= viewingdistance)
+        if (Vector3.Distance(transform.position, GetCharacter.position) <= viewingdistance && enemyDead == false)
         {
 
             playerinsight = true;
@@ -90,7 +102,7 @@ public class EnemySpear : MonoBehaviour
 
 
         // Wenn der Spieler nah genug am Gegner drann ist fängt er an ihn zu verfolgen
-        if (Vector3.Distance(transform.position, GetCharacter.position) <= MaxDist && Vector3.Distance(transform.position, GetCharacter.position) >= MinDist)
+        if (Vector3.Distance(transform.position, GetCharacter.position) <= MaxDist && Vector3.Distance(transform.position, GetCharacter.position) >= MinDist && enemyDead == false)
         {
             Invoke("walking", 0.25f);
 
@@ -154,6 +166,14 @@ public class EnemySpear : MonoBehaviour
     void stopAttacking()
     {
         
+    }
+    void DestroyEnemy()
+    {
+        Destroy(this.gameObject);
+    }
+    void EnemyDeadOnce()
+    {
+        enemyDead = false;
     }
 
 
